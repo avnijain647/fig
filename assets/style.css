@@ -231,10 +231,15 @@ height:150vh !important;
   position: -webkit-sticky;
   top:0;
 }
-
+.gif3{
+  display: none;
+}
 .theme{
     padding:50px;
 width:50%;
+}
+.theme2{
+  display:none;
 }
 .heading{
   font-family: axis_b;
@@ -256,6 +261,9 @@ a{
   float:right;
     padding:50px;
 width:50%;
+}
+.guidelines2{
+  display: none;
 }
 .green{
   background-color: #fff;
@@ -298,6 +306,7 @@ height:300px;
   font-weight: 700;
 }
 @media (max-width:900px){
+
 .gif1,
 .gif2{
   width:300px;
@@ -306,10 +315,21 @@ height:300px;
 }
 
 @media (max-width:600px){
+  .grey{
+      height:160vh!important;
+  }
+
+  .blue{
+      height:140vh!important;
+  }
+  .green{
+    height:120vh!important;
+  }
   .writeup{
     font-size:16px;
   }
-.figtext{
+.figtext,
+.figtext2{
   font-size: 81px;
 }
 .opencall{
@@ -332,12 +352,17 @@ height:300px;
   left:50%;
   transform:translate(-50%, -50%);
 }
-.theme{
-  /* background-color: red; */
-    padding:5px;
-width:60%;
-}
 
+.theme{
+  display: none;
+  /* background-color: red; */
+
+}
+.theme2{
+  padding:20px;
+width:90%;
+  display: block;
+}
 .footer{
   align-items: center;
   justify-content: center;
@@ -346,8 +371,12 @@ width:60%;
     padding:10px;
 }
 .guidelines{
-    padding:5px;
-width:60%;
+    display: none;
+}
+.guidelines2{
+  padding:15px;
+width:90%;
+  display: block;
 }
 .logo img,
 .eyemyth_gif img{
@@ -376,7 +405,8 @@ flex-wrap: wrap;
   .writeup{
     font-size: 15px;
   }
-  .figtext{
+  .figtext,
+  .figtext2{
     font-size: 70px;
   }
 
@@ -390,9 +420,6 @@ flex-wrap: wrap;
   left:50%;
   transform:translate(-50%, -50%);
 }
-.theme{
-width:60%;
-}
 
 .footer{
   align-items: center;
@@ -401,10 +428,7 @@ width:60%;
   width:95%;
     padding:10px;
 }
-.guidelines{
 
-width:60%;
-}
 .logo img,
 .eyemyth_gif img{
 height:auto;
@@ -421,6 +445,22 @@ flex-wrap: wrap;
 }
 .gif1,
 .gif2{
-  width:120px;
+    /* display: none; */
+
+}
+/* .gif2{
+  float:left;
+  width:420px;
+  position: sticky;
+  position: -webkit-sticky;
+  top:0;
+} */
+.gif1,
+.gif2{
+  display: block;
+  position: relative;
+  /* position: -webkit-sticky; */
+    float:none;
+  width:100vw;
 }
 }
