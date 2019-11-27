@@ -1,0 +1,49 @@
+body{
+  background-color: black;
+}
+
+.grid1{
+  width:1200px;
+  height:1440px;
+  background-color: yellow;
+  margin-left:auto;
+  margin-right:auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.grid2{
+  width:100vw;
+  height:100vh;
+  /* background-color:red; */
+  position: fixed;
+  top:0;
+  left:0;
+  display: none;
+}
+show2{
+    display: block;
+}
+.block1{
+  width:240px;
+  height:240px;
+  background-color: white;
+  background-image: url(idea_jam_sriparna_ghosh.gif);
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+
+.section1{
+  width:90vw;
+  height:90vh;
+  position:absolute;
+    background-color:red;
+    opacity:1;
+}
+
+show{
+  opacity:1;
+}
