@@ -11,9 +11,7 @@ $('.opencall').addClass('opencallpop')
 }
 
 });
-// $('.opencall').on('hover', function(){
-//   $('.opencall').addClass('opencallcolor')
-// })
+
 
 $(function() {
     var img = $('.rick').html();
@@ -29,3 +27,11 @@ $(function() {
         $('.rick').append(content);
     }
 });
+
+
+// $('.block2').on('click', function(){
+//
+//   $('.block2').addClass('color')
+//
+//
+// })
